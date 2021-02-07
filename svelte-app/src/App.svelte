@@ -1,3 +1,4 @@
+<svelte:options tag="my-app" />
 <script>
 	export let name;
 </script>
