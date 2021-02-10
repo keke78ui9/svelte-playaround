@@ -1,7 +1,7 @@
 import { render } from "@testing-library/svelte";
 import App from "./App.svelte";
 
-test("should render", () => {
+test(App.name, () => {
   const _name: string = 'world';
 
   const results = render(App, { props: { name: _name } });
