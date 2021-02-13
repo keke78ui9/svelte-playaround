@@ -1,0 +1,23 @@
+{
+  "name": "svelte-sample-templates",
+  "version": "1.0.0",
+  "description": "Provide list of sample app for Svelte apps.",
+  "scripts": {
+    "start": "(npm run install) && (npm run test2)",
+    "install": "(npm run svelte) && (npm run svelte-jest)",
+    "test2": "npm run svelte-jest-test",
+    "svelte": "npm install --prefix svelte-app",
+    "svelte-jest": "npm install --prefix svelte-app-jest",
+    "svelte-jest-test": "npm run test --prefix svelte-app-jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keke78ui9/svelte-sample-templates.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/keke78ui9/svelte-sample-templates/issues"
+  },
+  "homepage": "https://github.com/keke78ui9/svelte-sample-templates#readme"
+}
