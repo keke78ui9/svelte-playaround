@@ -6,7 +6,7 @@
 </script>
 
 <main>
-	<h1>Hello {name}!</h1>
+	<h1 data-testid="hello">Hello {name}!</h1>
 
 	<p>Visit the 
 		<app-link url="https://svelte.dev/tutorial" name="Svelte tutorial"></app-link> to learn how to build Svelte apps.

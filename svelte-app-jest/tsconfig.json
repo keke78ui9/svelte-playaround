@@ -1,8 +1,8 @@
 {
   "extends": "@tsconfig/svelte/tsconfig.json",
-  "include": ["src/**/*", "svelte.config.js"],
+  "include": ["src/**/*", "**/*.spec.ts", "**/*.d.ts"],
   "exclude": ["node_modules/*", "__sapper__/*", "public/*"],
   "compilerOptions": {
-    "types": ["jest"]
+    "types": [ "jest", "@types/testing-library__jest-dom" ]
   }
 }
