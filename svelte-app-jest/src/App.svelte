@@ -11,108 +11,108 @@
 	let octal: number = 0o744;
 	// let big: bigint = 100n; // TODO: this cause TypeError, TypeError: Do not know how to serialize a BigInt.
 
-	let color: string = "blue";
-	color = 'red';
+	// let color: string = "blue";
+	// color = 'red';
 
-	let list: number[] = [1, 2, 3];
-	let list2: Array<number> = [1, 2, 3];
-	let x: [string, number];
-	// Initialize it
-	x = ["hello", 10]; // OK
-	// Initialize it incorrectly
-	x = [10, "hello"]; // Error
+	// let list: number[] = [1, 2, 3];
+	// let list2: Array<number> = [1, 2, 3];
+	// let x: [string, number];
+	// // Initialize it
+	// x = ["hello", 10]; // OK
+	// // Initialize it incorrectly
+	// x = [10, "hello"]; // Error
 
-	enum Color {
-		Red,
-		Green,
-		Blue,
-	}
-	let c: Color = Color.Green;
+	// enum Color {
+	// 	Red,
+	// 	Green,
+	// 	Blue,
+	// }
+	// let c: Color = Color.Green;
 
-	enum Color2 {
-		Red = 1,
-		Green = 2,
-		Blue = 4,
-	}
-	let c2: Color2 = Color2.Green;
+	// enum Color2 {
+	// 	Red = 1,
+	// 	Green = 2,
+	// 	Blue = 4,
+	// }
+	// let c2: Color2 = Color2.Green;
 
-	let notSure: unknown = 4;
-	notSure = "maybe a string instead";
+	// let notSure: unknown = 4;
+	// notSure = "maybe a string instead";
 
-	let u: undefined = undefined;
-	let n: null = null;
+	// let u: undefined = undefined;
+	// let n: null = null;
 
-	function error(message: string): never {
-		throw new Error(message);
-	}
+	// function error(message: string): never {
+	// 	throw new Error(message);
+	// }
 
-	interface LabeledValue {
-		label: string;
-	}
+	// interface LabeledValue {
+	// 	label: string;
+	// }
 
-	function printLabel(labeledObj: LabeledValue) {
-		console.log(labeledObj.label);
-	}
+	// function printLabel(labeledObj: LabeledValue) {
+	// 	console.log(labeledObj.label);
+	// }
 
-	interface SquareConfig {
-		color?: string;
-		width?: number;
-	}
+	// interface SquareConfig {
+	// 	color?: string;
+	// 	width?: number;
+	// }
 
-	interface Shape {
-	color: string;
-	}
+	// interface Shape {
+	// color: string;
+	// }
 
-	interface Square extends Shape {
-	sideLength: number;
-	}
+	// interface Square extends Shape {
+	// sideLength: number;
+	// }
 
-	let square = {} as Square;
-	square.color = "blue";
-	square.sideLength = 10;
+	// let square = {} as Square;
+	// square.color = "blue";
+	// square.sideLength = 10;
 
-	function add(x: number, y: number): number {
-		return x + y;
-	}
+	// function add(x: number, y: number): number {
+	// 	return x + y;
+	// }
 
-	class Greeter {
-	greeting: string;
+	// class Greeter {
+	// greeting: string;
 
-	constructor(message: string) {
-		this.greeting = message;
-	}
+	// constructor(message: string) {
+	// 	this.greeting = message;
+	// }
 
-	greet() {
-		return "Hello, " + this.greeting;
-	}
-	}
+	// greet() {
+	// 	return "Hello, " + this.greeting;
+	// }
+	// }
 
-	let greeter = new Greeter("world");
+	// let greeter = new Greeter("world");
 
-	function identity(arg: number): number {
-		return arg;
-	}
+	// function identity(arg: number): number {
+	// 	return arg;
+	// }
 
-	function identity2<T>(arg: T): T {
-		return arg;
-	}
+	// function identity2<T>(arg: T): T {
+	// 	return arg;
+	// }
 
-	let output = identity<string>("myString");
+	// let output = identity<string>("myString");
 
-	function loggingIdentity<T>(arg: Array<T>): Array<T> {
-		console.log(arg.length); // Array has a .length, so no more error
-		return arg;
-	}
+	// function loggingIdentity<T>(arg: Array<T>): Array<T> {
+	// 	console.log(arg.length); // Array has a .length, so no more error
+	// 	return arg;
+	// }
 
-	function identity3<T>(arg: T): T {
-	return arg;
-	}
+	// function identity3<T>(arg: T): T {
+	// return arg;
+	// }
 
-	let myIdentity: <T>(arg: T) => T = identity;
+	// let myIdentity: <T>(arg: T) => T = identity;
 
-	function create<T>(c: { new (): T }): T {
-		return new c();
-	}
+	// function create<T>(c: { new (): T }): T {
+	// 	return new c();
+	// }
 </script>
 
 <main>
