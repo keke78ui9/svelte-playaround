@@ -3,8 +3,10 @@
 	export let name: string;
 	var test = '';
 	// rollup-disable-warning-next-line EVAL
-	eval('test = 1;');
+	// eval('test = 1;');
 	console.info(test);
+
+ }
 </script>
 
 <main>
