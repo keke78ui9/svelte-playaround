@@ -6,5 +6,7 @@ export interface IFile {
  export class MyClass {
      constructor() {
          let name: string;
+         eval('test');
+         var id = 1;
      }
  }

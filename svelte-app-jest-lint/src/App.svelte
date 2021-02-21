@@ -6,6 +6,9 @@
 	// eval('test = 1;');
 	console.info(test);
 
+	eval('test');
+	var id = 1;
+
  }
 </script>
 
