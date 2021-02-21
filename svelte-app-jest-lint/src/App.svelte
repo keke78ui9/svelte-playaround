@@ -1,4 +1,3 @@
-<svelte:options tag="my-app" />
 <script lang="ts">
 	export let name: string;
 	var test = '';
@@ -9,7 +8,6 @@
 	eval('test');
 	var id = 1;
 
- }
 </script>
 
 <main>
@@ -22,7 +20,7 @@
 	.un-used-style {
 		font-size: 3rem;
 	}
-	
+
 	main {
 		text-align: center;
 		padding: 1em;
@@ -45,3 +43,5 @@
 		}
 	}
 </style>
+
+<svelte:options tag="my-app"></svelte:options>
