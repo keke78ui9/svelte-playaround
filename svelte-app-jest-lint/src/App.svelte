@@ -18,6 +18,11 @@
 </main>
 
 <style type="text/scss">
+
+	.un-used-style {
+		font-size: 3rem;
+	}
+	
 	main {
 		text-align: center;
 		padding: 1em;
