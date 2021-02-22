@@ -1,3 +1,4 @@
+<svelte:options tag='my-app'></svelte:options>
 <script lang="ts">
 	export let name: string;
 	var test = '';
@@ -43,5 +44,3 @@
 		}
 	}
 </style>
-
-<svelte:options tag="my-app"></svelte:options>
