@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "build": "rollup -c --silent",
-    "lint": "concurrently \"npm run lint:svelte-check \" \"rollup -c --failAfterWarnings\" \"lint:eslint\"",
+    "lint": "concurrently \"npm run lint:svelte-check \" \"rollup -c --failAfterWarnings\" \"npm run lint:eslint\"",
     "lint:svelte-check": "svelte-check --fail-on-warnings --threshold",
     "lint:eslint": "eslint src/** --max-warnings=0",
     "dev": "rollup -c -w",

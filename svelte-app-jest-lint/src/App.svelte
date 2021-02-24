@@ -1,27 +1,17 @@
 <svelte:options tag='my-app'></svelte:options>
 <script lang="ts">
 	export let name: string;
-	var test = '';
-	// rollup-disable-warning-next-line EVAL
-	// eval('test = 1;');
-	console.info(test);
-
-	eval('test');
-	var id = 1;
-
+	import MyClass from './MyClass';
+	let myClass = new MyClass();
+	let helloText= myClass.getHello(name);
 </script>
 
 <main>
-	<h1 data-testid="name">Hello {name}!</h1>
+	<h1 data-testid="name">{helloText}</h1>
 	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
 </main>
 
 <style type="text/scss">
-
-	.un-used-style {
-		font-size: 3rem;
-	}
-
 	main {
 		text-align: center;
 		padding: 1em;

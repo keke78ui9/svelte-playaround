@@ -1,9 +1,4 @@
-export interface IFile {
-    key: string;
-    value: string;
- }
-
- export class MyClass {
+ export class MyTest {
      constructor() {
          let name: string;
          eval('test');

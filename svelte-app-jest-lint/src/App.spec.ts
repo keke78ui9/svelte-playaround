@@ -1,5 +1,5 @@
-import { render } from "@testing-library/svelte";
-import App from "./App.svelte";
+import {render} from '@testing-library/svelte';
+import App from './App.svelte';
 
 test('test 1', () => {
 
