@@ -10,3 +10,7 @@ npx degit sveltejs/template svelte-app
 cd svelte-app
 npm install
 ```
+
+```
+npx cypress open
+```

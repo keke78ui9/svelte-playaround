@@ -4,11 +4,13 @@
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
-    "start": "sirv public"
+    "start": "sirv public",
+    "cy:local": "concurrently \"npm run dev\" \"cypress open\""
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^17.0.0",
     "@rollup/plugin-node-resolve": "^11.0.0",
+    "concurrently": "^6.0.0",
     "cypress": "^6.5.0",
     "cypress-svelte-unit-test": "^3.3.1",
     "rollup": "^2.3.4",
