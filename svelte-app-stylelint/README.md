@@ -1,5 +1,5 @@
 ```
-npm install -g stylelint stylelint-config-standard
+npm install -g stylelint stylelint-config-standard stylelint-config-recommended
 npx stylelint "**/*.css"
 npx stylelint "**/*.{css,scss,sass}"
 ```
@@ -9,6 +9,8 @@ npx stylelint "**/*.{css,scss,sass}"
 https://github.com/stylelint/stylelint-config-standard
 https://github.com/stylelint/stylelint-config-recommended
 
+## more stylelint
+https://github.com/stylelint/awesome-stylelint
 
 
 
