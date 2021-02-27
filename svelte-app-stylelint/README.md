@@ -7,6 +7,7 @@ npx stylelint "**/*.{css,scss,sass}"
 
 # stylelint-config-standard
 https://github.com/stylelint/stylelint-config-standard
+https://github.com/stylelint/stylelint-config-recommended
 
 
 
