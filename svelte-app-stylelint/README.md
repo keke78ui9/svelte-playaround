@@ -15,3 +15,10 @@ https://github.com/stylelint/stylelint-config-standard
 ```
 npx stylelint "**/*.css" --fix 
 ```
+
+# turn off rules
+```
+/* max-empty-lines */
+
+a {}
+```
