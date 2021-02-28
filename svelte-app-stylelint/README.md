@@ -25,3 +25,16 @@ npx stylelint "**/*.css" --fix
 
 a {}
 ```
+
+# sample stylelint setup
+```
+{
+    "extends": [
+        "stylelint-config-standard", 
+        "stylelint-config-recommended",
+        "stylelint-config-sass-guidelines"
+    ],
+    "rules": {
+    }
+}
+```
