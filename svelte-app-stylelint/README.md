@@ -53,3 +53,10 @@ use specific config file, any warning will take as errors
 ```
 stylelint '**/*.{css,scss,sass}' --config 'stylelint.config.js' --max-warnings 0
 ```
+
+# ignore style example
+```
+/* stylelint-disable selector-type-no-unknown */
+unknown-selector {
+/* stylelint-enable selector-type-no-unknown */
+```
