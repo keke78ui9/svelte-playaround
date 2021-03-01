@@ -38,3 +38,11 @@ a {}
     }
 }
 ```
+
+
+#ignore style example
+```
+/* stylelint-disable selector-type-no-unknown */
+unknown-selector {
+/* stylelint-enable selector-type-no-unknown */
+```
