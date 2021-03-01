@@ -1,3 +1,11 @@
 a { color: pink !important; }
 
 a.test { color: #333; }
+
+.foo { width: calc(); }
+
+a { color: #y3 }
+
+a { font-family: serif, serif; }
+
+a { font-family: Helvetica, Arial, Verdana, Tahoma; }
