@@ -42,3 +42,14 @@ a {}
     }
 }
 ```
+
+# example run lint
+```
+stylelint '**/*.{css,scss,sass}' --config '.stylelintrc.json'
+```
+
+# example run script
+use specific config file, any warning will take as errors
+```
+stylelint '**/*.{css,scss,sass}' --config 'stylelint.config.js' --max-warnings 0
+```
