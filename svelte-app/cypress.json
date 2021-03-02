@@ -2,5 +2,5 @@
   "projectId": "xqn1pu",
   "experimentalComponentTesting": true,
   "componentFolder": "src",
-  "testFiles": "**/*e2e.spec.js"
+  "testFiles": "**/*.e2e.js"
 }
