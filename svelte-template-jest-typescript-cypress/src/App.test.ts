@@ -7,4 +7,5 @@ test('test greeting', () => {
   const { getByText } = render(App, { name: 'world' } );
 
   expect(getByText('Hello world!')).toBeInTheDocument();
+  
 });

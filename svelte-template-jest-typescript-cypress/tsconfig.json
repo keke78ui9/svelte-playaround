@@ -1,8 +1,14 @@
 {
   "extends": "@tsconfig/svelte/tsconfig.json",
-  "include": ["src/**/*"],
-  "exclude": ["node_modules/*", "__sapper__/*", "public/*"],
+  // only compile the production TS files
+  "include": ["src/*.ts", "cypress/integration/spec.ts"],
+  "exclude": ["src/*.test.ts"],
   "compilerOptions": {
-    "types": ["jest", "@types/testing-library__jest-dom" ]
+    "types": ["jest", "@types/testing-library__jest-dom" ],
+    "target": "es5",
+    "module": "commonjs",
+    "lib": ["ES2015", "DOM"],
+    "strict": true,
+    "noEmit": true
   }
 }

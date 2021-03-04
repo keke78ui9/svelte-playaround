@@ -1,5 +1,5 @@
 {
-    "experimentalComponentTesting": true,
-    "componentFolder": "src",
-    "testFiles": "**/*.e2e.js"
+  "pluginsFile": false,
+  "supportFile": false,
+  "fixturesFolder": false
   }
