@@ -1,11 +1,11 @@
 import App from './App.svelte'
 import { mount } from 'cypress-svelte-unit-test'
 it('Test App.svelte ', () => {
-  // mount(App, {
-  //   props: {
-  //     name: 'World',
-  //   },
-  // })
+  mount(App, {
+    props: {
+      name: 'World',
+    },
+  })
 
   
 
