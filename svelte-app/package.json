@@ -5,7 +5,9 @@
     "build": "rollup -c",
     "dev": "rollup -c -w",
     "start": "sirv public",
-    "cy": "cypress open",
+    "cy": "cypress open && npm run dev",
+    "cy:1": "cypress run --headless && npm run dev",
+    "cy:2": "cypress run --reporter junit --reporter-options mochaFile=result.xml,toConsole=true && npm run dev",
     "cy:local": "concurrently \"npm run dev\" \"cypress open\""
   },
   "devDependencies": {

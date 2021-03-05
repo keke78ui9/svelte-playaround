@@ -14,3 +14,18 @@ npm install
 ```
 npx cypress open
 ```
+
++ setup cypress intergration test
++ write/run some test
++ cypress with svelte - unit-test
+
++ cypress with svelte(typescript) - unit-test
++ cypress report..
++ cypress code coverage
++ cypress with build pipeline
+
+
+run test in command line
+```
+cypress run --headless
+```
